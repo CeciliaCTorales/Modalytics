@@ -1,0 +1,12 @@
+# Datos crudos/pesados
+data/raw/
+data/sample/customers_filtered.csv
+data/raw/customers.csv
+data/raw/transactions_train.csv
+
+# Cachés y cosas ruidosas
+**/__pycache__/
+*.pyc
+*.ipynb_checkpoints/
+.env
+.venv/
