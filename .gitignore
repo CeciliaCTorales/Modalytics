@@ -10,3 +10,6 @@ data/raw/transactions_train.csv
 *.ipynb_checkpoints/
 .env
 .venv/
+git rm -r --cached data/raw data/sample/customers_filtered.csv
+git add .gitignore
+git commit -m "chore: excluir datos pesados y agregar .gitignore"
